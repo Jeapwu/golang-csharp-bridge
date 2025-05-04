@@ -18,7 +18,7 @@
     dumpbin /EXPORTS CalculatorV1.dll
     ```
     
-3. 将编译出的CalculatorV1.dll和CalculatorV2.dll拷贝到golang项目的根目录，通过如何命令编译运行：
+3. 将编译出的CalculatorV1.dll和CalculatorV2.dll拷贝到golang项目的根目录，通过如何命令编译运行，分别输出热更前和热更后的计算结果：
     
     ```bash
     go build main.go -o main.exe
