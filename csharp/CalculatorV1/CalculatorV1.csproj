@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <OutputType>Library</OutputType>
+	  <PublishAot>true</PublishAot>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <SelfContained>true</SelfContained>
+	  <StripSymbols>true</StripSymbols>
+	  <NativeLib>Shared</NativeLib>
+	  <!-- 可选: Shared 生成 .dll，Static 生成 .lib/.a -->
+	  <IlcGenerateCompleteTypeMetadata>false</IlcGenerateCompleteTypeMetadata>
+	  <SelfContained>true</SelfContained>
+  </PropertyGroup>
+
+</Project>
